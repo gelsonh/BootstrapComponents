@@ -1,4 +1,15 @@
-hr {
-  background-color: #999;
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
 }
 
+.sticky-sidebar {
+  height: 100vh;
+  position: -webkit-sticky;
+  overflow-y: auto;
+  position: sticky;
+  top: 1rem;
+}
